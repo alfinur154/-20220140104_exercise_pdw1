@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    margin: 0; /* Menghilangkan margin */
+    padding: 0; /* Menghilangkan padding */
+}
+
+header {
+    background-color: #3498db; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    text-align: center; /* Teks di tengah header */
+    padding: 20px 0; /* Padding atas dan bawah 20px, padding kiri kanan 0 */
+}
+
+main {
+    padding: 20px; /* Padding untuk konten utama */
+}
+
+article {
+    margin-bottom: 40px; /* Jarak antar artikel */
+}
+
+h1 {
+    font-size: 36px; /* Ukuran font judul utama */
+}
+
+h2 {
+    font-size: 24px; /* Ukuran font judul artikel */
+    margin-bottom: 10px; /* Jarak bawah judul artikel */
+}
+
+p {
+    font-size: 18px; /* Ukuran font paragraf */
+    line-height: 1.5; /* Jarak antar baris 1.5x ukuran font */
+}
+
+.image {
+    text-align: center; /* Posisi gambar di tengah */
+    margin-top: 4px; /* Jarak atas gambar */
+}
+
+.image img {
+    max-width: 100%; /* Ukuran maksimal gambar */
+    height: auto; /* Lebar gambar menyesuaikan proporsi aslinya */
+}
+
+button {
+    background-color: #2ecc71; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Menghilangkan border */
+    padding: 10px 20px; /* Padding tombol */
+    font-size: 18px; /* Ukuran font tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+}
+
+.hidden {
+    display: none; /* Kotak alert disembunyikan secara default */
+}
